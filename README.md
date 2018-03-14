@@ -1,15 +1,20 @@
 # geoip_test
-test case
 
-Preparation:
+##Preparation:
 1. get maxmind geoip2 php reader
 ```
 composer update
 ```
 
-2. get maxmind geoip2 database, i.e. 
+2. get maxmind geoip2 database, i.e. and put it into ./db folder
 
-Usage:
+3. set up config with db name in index.php at line 9:
+
+```
+	'db'	=>	'db/DATABASE_FILENAME',
+```
+
+##Usage:
 ```
 GET /?ip=x.x.x.x
 ```
