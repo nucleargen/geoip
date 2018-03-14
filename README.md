@@ -1,6 +1,6 @@
 # geoip_test
 
-##Preparation:
+## Preparation:
 1. get maxmind geoip2 php reader
 ```
 composer update
@@ -14,7 +14,7 @@ composer update
 	'db'	=>	'db/DATABASE_FILENAME',
 ```
 
-##Usage:
+## Usage:
 ```
 GET /?ip=x.x.x.x
 ```
@@ -23,4 +23,5 @@ Result:
 {lat:XX,lon:YY,country:'country_name',city:'city_name'}
 ```
 If no information about ip found - returns empty body with 404 http status
+
 Request results caches for 30 minutes in ./cache folder
