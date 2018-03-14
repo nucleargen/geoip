@@ -6,7 +6,7 @@
 composer update
 ```
 
-2. get maxmind geoip2 database, i.e. and put it into ./db folder
+2. get maxmind [GeoLite2 City](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz) database and put it into ./db folder
 
 3. set up config with db name in index.php at line 9:
 
